@@ -17,6 +17,8 @@ public class TweetAPIClientTest {
     @BeforeClass public void setUpTweetAPI(){
         this.tweetAPIClient = new TweetAPIClient();
     }
+
+
     //TEST 1
     @Test
     public void testUserCanTweetSuccessfully() {
